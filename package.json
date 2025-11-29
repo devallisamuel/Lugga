@@ -1,0 +1,32 @@
+{
+  "name": "lugga",
+  "version": "1.0.0",
+  "description": "A library that helps in loggig with different logging levels",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devallisamuel/Lugga.git"
+  },
+  "author": "Samuel Alli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devallisamuel/Lugga/issues"
+  },
+  "homepage": "https://github.com/devallisamuel/Lugga#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ts-jest": "^29.4.5",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
